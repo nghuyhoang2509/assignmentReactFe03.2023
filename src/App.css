@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.task {
+  margin: 10px 30px;
+}
+
+.task .time-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.task .time-line input {
+  height: 16px;
+}
+
+.field input,
+.field h5 {
+  display: inline;
+}
+
+.field i {
+  display: block;
+}
+
+.field {
+  margin: 20px 0px;
+}
+
+.todo-list .todo h5,
+.todo-list .todo input {
+  display: inline;
+}
+
+.add-todo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.todo-list .todo h5 {
+  margin-right: 10px;
+}
+
+.todo-list .todo input {
+  height: 20px;
+}

@@ -24,6 +24,10 @@
   display: inline;
 }
 
+.field h5 {
+  text-transform: capitalize;
+}
+
 .field i {
   display: block;
 }

@@ -17,7 +17,7 @@ export default function Form() {
     console.log("haha");
     switch (field) {
       case "name":
-        setError({ ...error, name: form.name.length < 2 });
+        setError({ ...error, name: form.name.trim().length < 2 });
         break;
       case "email":
         const regexEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
